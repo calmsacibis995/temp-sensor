@@ -9,10 +9,3 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(input.temperature())
 })
-basic.showLeds(`
-    . # . . .
-    . # . . .
-    . # # # .
-    . # . # .
-    . # . # .
-    `)
